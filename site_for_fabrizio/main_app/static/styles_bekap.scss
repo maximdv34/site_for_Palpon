@@ -1,0 +1,66 @@
+$site-color: #055da0;
+
+body.body{
+    font-size: 20px;
+}
+
+header{
+    .main{
+        margin: 0;
+        padding: 0;
+        a{
+            text-align: center;
+            text-decoration: none;
+            padding: 25px 0px;
+            color: white;
+            background-color: $site-color;
+            font-size: 37px;
+            :hover{
+                color: $site-color;
+                background-color: white;
+                text-decoration: none;
+            }
+        }
+        
+    }
+    .companies{
+        padding: 25px 0;
+        .ghost{
+            width: 40px;
+        }
+        .fab{
+            padding: 0;
+        }
+        .surname{
+           font-size: 37px;
+           padding-left: 0px;
+           padding-right: 0;
+        }
+        .label{
+            font-size: 33px;
+            padding: 0;
+        }
+        div{
+            color: $site-color;
+        }
+        .company_name{
+            font-size: 18px;
+            padding: 0;
+            
+            :nth-child(3){
+                color: #d30e11;
+                padding: 0px;
+            }
+            :nth-child(4){
+                color: #292929;
+                padding: 0px;
+            }
+            :nth-child(7){
+                color: #292929;
+                font-family: monospace;
+                margin-top: -8px;
+                font-size: 22px;
+            }
+    }
+}
+}
