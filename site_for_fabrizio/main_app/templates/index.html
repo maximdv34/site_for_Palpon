@@ -1,4 +1,13 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-
+<link rel="stylesheet" type="text/css" href="{% static 'indexstyle.css' %}">
+<div class="posts row">
+	{% for post in posts %}
+	<div class="post col-sm-4 text-center">
+		<div alt="img" class="image"  style="background: url({{ post.image.url }}) no-repeat;"></div>
+		<p>{{ post.title }}</p>
+	</div>
+	{% endfor %}
+</div>
 {% endblock %}
