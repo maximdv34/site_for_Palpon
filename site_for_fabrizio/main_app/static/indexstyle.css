@@ -1,10 +1,52 @@
+.video {
+  width: 1680px;
+  height: 945px; }
+
+.presentation {
+  margin-left: 60px; }
+  .presentation .block {
+    width: 567px;
+    margin-left: 20px;
+    margin-right: 20px; }
+    .presentation .block .image1 {
+      height: 400px;
+      width: 400px;
+      margin-top: 42px; }
+    .presentation .block .image2 {
+      padding-top: 58px; }
+    .presentation .block p {
+      background: #d1fcff;
+      font-size: 37px;
+      color: #00C0FF;
+      margin: 0; }
+  .presentation .block1 {
+    width: 500px; }
+  .presentation .block3 {
+    width: 537px; }
+
+.buttons {
+  font-size: 45px; }
+  .buttons button {
+    background-color: #01579B;
+    border: 0;
+    color: white;
+    padding: 0 175px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 7px;
+    margin-top: 7px; }
+
 .posts {
   margin: 0 50px;
   height: 500px; }
   .posts .post {
-    padding-right: 5px; }
+    padding-right: 5px;
+    color: #01579B;
+    font-size: 32px; }
+    .posts .post p {
+      height: 500px; }
   .posts .image {
-    height: 240px;
-    width: 320px; }
+    height: 360px;
+    width: 480px; }
 
 /*# sourceMappingURL=indexstyle.css.map */

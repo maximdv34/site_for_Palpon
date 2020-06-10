@@ -2,6 +2,27 @@
 {% load static %}
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'indexstyle.css' %}">
+<div class="text-center">
+	<iframe class="video" src="https://www.youtube.com/embed/9zlgkvF2Nro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="row presentation text-center">
+	<div class=" block block1">
+		<img src="\static/images/image1.jpg" alt="" class="image1">
+		<p>solo le auto migliori ricevono nostra medaglia</p>
+	</div>
+	<div class=" block">
+		<img src="\static/images/image2.jpg" alt="" class="image2">
+		<p>Scegli un auto come nuova al prezzo di una usata</p>
+	</div>
+	<div class=" block block3">
+		<img src="\static/images/image3.jpg" alt="">
+		<p>sarai felice o la restituisci</p>
+	</div>
+</div>
+<div class="buttons">
+	<button>Vedi tutte le auto</button>
+	<button>Valuta la tua auto</button>
+</div>
 <div class="posts row">
 	{% for post in posts %}
 	<div class="post col-sm-4 text-center">
