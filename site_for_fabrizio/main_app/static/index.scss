@@ -2,6 +2,34 @@
 	width: 1680px; 
 	height: 945px;
 }
+.line-for-video{
+	width: 1680px;
+	background: #d1fcff;
+	font-size: 45px;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: #01579B;
+    margin-top: -8px;
+    p{
+		width: 700px;
+		margin-left: 70px;
+    }
+	button{
+		margin-left: 250px;
+		width: 400px;
+		border: none;
+		background-color: #f3ff00;
+		color: #01579B;
+	}
+	img{
+		width: 86px;
+		height: 131px;
+		margin-left: 40px;
+		margin-top: 10px;
+
+	}
+}
 .presentation{
 	margin-left: 60px;
 	.block{
@@ -54,7 +82,9 @@
 		color: #01579B;
 		font-size: 32px;
 	p{
-		height: 500px;
+		width: 480px;
+		margin-left: auto;
+    	margin-right: auto;
 	}
 		
 	}
